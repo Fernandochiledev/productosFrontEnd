@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './index.css'
 
-const API_URL = 'https://hj6fh6nztg.execute-api.us-east-1.amazonaws.com/prod/productos';
+const API_URL = 'https://7vxw9hjiqg.execute-api.us-east-1.amazonaws.com/prod/productos';
 
 function App() {
   const [products, setProducts] = useState([]);
